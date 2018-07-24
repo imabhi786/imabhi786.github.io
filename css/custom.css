@@ -1,0 +1,107 @@
+body{
+    background-color:#cfdfe6;	 
+	background-repeat: no-repeat;
+	/*padding-bottom:100px;*/
+}
+.quicksand{
+	font-family: 'Abel';
+	font-size: 35px;
+	text-transform: uppercase;
+	color:#324851;
+}
+.abel{
+	font-family: 'Abel';
+	font-size: 25px;
+	color:white;
+	/*text-transform: uppercase;*/
+}
+
+blockquote{
+	border-left: 10px solid grey;
+}
+.navbar{
+	background:transparent;
+	border-bottom: none;
+
+}
+.navbar-default .navbar-nav>li>a {
+    color:#6c7d99;
+}
+.effect{
+	font-family: 'Abel';
+	font-size: 20px;
+	text-transform: uppercase;
+}
+/*.shape:hover{
+	/*background-color:grey;
+	border: 1.5px solid black;
+	border-radius: 4.5px;
+	font-family: 'Abel';
+	cursor: pointer;
+    box-shadow: 0 0 1px black;
+}*/
+.shape:hover,
+.shape:focus {
+  border:1.5px solid #66a5ad;
+  border-radius: 8px;
+  transition:ease-in-out 0.5s;
+  background-position: right center;
+  -webkit-box-shadow: inset 10.5em 0 0 0 white;
+          box-shadow: inset 10.5em 0 0 0 white;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+     color: #555; 
+     background-color: white; 
+     /*border:1.5px solid #66a5ad;*/
+     border-radius: 8px;
+}
+.scrolled {
+    background: #d5dfef;
+}
+.img-circular{
+	 margin-top:150px;
+	 width: 300px;
+	 height: 300px;
+	 background-size: cover;
+	 border-radius: 400px;
+	 -webkit-border-radius: 400px;
+	 -moz-border-radius: 400px;
+	}
+.center-block {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+/*#first {
+    min-height: 110vh;
+    background: #e78001;
+    background: -webkit-gradient(linear, right top, left top, from(#ec8302),to(#e78001));
+    background: linear-gradient(to left, #ec8302, #e78001);
+    background-image: -webkit-gradient(linear, right top, left top, from(#185a9d), to(#43cea2));
+    background-image:linear-gradient(-90deg, #2b71bb, #4fe8b8);
+}*/
+.carousel{
+	/*margin-top: 100px;*/
+	/*height: 500px;
+	width: 80%;*/
+	background: black;
+}
+.set{
+	margin: 0;
+	padding: 0;
+}
+.item{
+	height: 800px;
+	width:100%;
+}
+#second .jumbotron{
+	margin-top: 60px;
+	background-color: #80bd9e;
+}
+
+
+.gradient {
+  width: 100%;
+  height: 100%;
+  background-image: radial-gradient(at 300px 300px, rgba(159,0,191,.9) 0, #4D4FA7 70%);
+}
