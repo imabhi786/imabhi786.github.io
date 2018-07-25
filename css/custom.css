@@ -50,10 +50,14 @@ blockquote{
           box-shadow: inset 10.5em 0 0 0 white;
 }
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
-     color: #555; 
+     color:#6c7d99;
      background-color: white; 
      /*border:1.5px solid #66a5ad;*/
      border-radius: 8px;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+	 color:#6c7d99;
+        background-color: transparent;
 }
 .scrolled {
     background: #d5dfef;
@@ -104,4 +108,15 @@ blockquote{
   width: 100%;
   height: 100%;
   background-image: radial-gradient(at 300px 300px, rgba(159,0,191,.9) 0, #4D4FA7 70%);
+}
+@media only screen and (max-width: 800px) {
+.shape:hover,
+.shape:focus {
+  border:1.5px solid #66a5ad;
+  border-radius: 8px;
+  transition:ease-in-out 0.8s;
+  background-position: right center;
+  -webkit-box-shadow: inset 40.5em 0 0 0 white;
+          box-shadow: inset 40.5em 0 0 0 white;
+}
 }
