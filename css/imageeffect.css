@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,900');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: 'Lato', sans-serif;
+}
+.team-container{
+  position: relative;
+  width:350px;
+  height: 350px;
+  overflow: hidden;
+  /*opacity: 0.6;*/
+  margin: 10px auto;
+  transition: all 0.8s ease;
+  /*box-shadow: 0px 0px 3px 0px #818181;*/
+}
+
+.img{
+  height: inherit;
+  filter: grayscale(1);
+  transition: all 0.8s ease;
+  background-repeat: no-repeat;
+  background-size: 100% 100%,contain;
+  background-image: 
+    url(images/abhijeet.jpg);
+   /*background: url(images/abhijeet.jpg) top left no-repeat, url(images/abhijeet.jpg) top left repeat-y;*/
+   border-radius: 400px;
+   -webkit-border-radius: 400px;
+   -moz-border-radius: 400px;
+}
+.img:hover{
+  opacity: 0.8;
+}
+
+.txt{
+  position: absolute;
+  color:#20375e;
+  bottom: -58.8%;
+  width: 100%;
+  height: 52%;
+  padding-top: 15px;
+  text-align: center;
+  transition: all 0.5s ease;
+  background:transparent;
+}
+
+.txt-top{
+  height: 40%;
+}
+.txt h3{
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.txt h5{
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.txt-bottom{
+  bottom: 0;
+  height: 50%;
+}
+
+.skill, .txt-bottom .img-ico{
+  display: inline-block;
+  height: 100%;
+  float: left;
+  line-height: 70px;
+}
+
+.txt-bottom .skill{
+  width: 100%
+}
+
+.txt-bottom .img-ico{
+  width: 45%;
+}
+
+.txt-bottom .img-ico a{
+ color: #fff;
+  text-decoration: none;
+}
+
+.txt-bottom .img-ico .fa{
+  font-size: 20px;
+  margin-right: 25px;
+}
+
+.txt-bottom span.s:nth-child(1){
+  margin-left: -5px;
+}
+
+.txt-bottom span.s {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  font-size: 18px;
+  margin-left: 8px;
+  border-radius: 50%;
+  line-height: 30px;
+  text-align: center;
+  border: 2px solid #fff;
+  transition: all 0.5s ease;
+}
+
+/*.team-container:hover{
+  box-shadow: 0px 0px 40px 0px #818181;
+}*/
+
+.team-container:hover .img{
+  filter: grayscale(0);
+}
+
+.team-container:hover .txt{
+  bottom: 0;
+}
+
+span.s:hover{
+  cursor: pointer;
+  color: rgba(63, 81, 181, 0.88);
+  background-color: #fff
+}
+
+/* Start Responsive Media Queries */
+/*@media (min-width: 1200px) {
+  .team-container{width: 25%; }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .team-container{width: 28%; }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .team-container{width: 32%; }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+.team-container{width: 50%; }
+}
+*/
+@media (max-width: 575px) {
+  .team-container{
+    width: 95%;
+   }
+   .img{
+    filter: grayscale(0);
+   }
+}
+/* End Responsive Media Queries */

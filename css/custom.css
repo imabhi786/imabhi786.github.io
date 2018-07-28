@@ -1,7 +1,7 @@
 
 .quicksand{
 	font-family: 'Abel';
-	font-size: 35px;
+	font-size: 20px;
 	text-transform: uppercase;
 	color:#324851;
 }
@@ -22,10 +22,12 @@ blockquote{
 }
 .navbar-default .navbar-nav>li>a {
     color:#6c7d99;
+    font-weight: 500;
 }
 .effect{
 	font-family: 'Abel';
 	font-size: 20px;
+	font-weight: 500;
 	text-transform: uppercase;
 }
 /*.shape:hover{
@@ -62,6 +64,7 @@ blockquote{
 	 margin-top:150px;
 	 width: 300px;
 	 height: 300px;
+	 /*background: url(images/abhijeet.jpg) top left no-repeat, url(images/abhijeet.jpg) top left repeat-y;*/
 	 background-size: cover;
 	 border-radius: 400px;
 	 -webkit-border-radius: 400px;
@@ -105,14 +108,33 @@ blockquote{
   height: 100%;
   background-image: radial-gradient(at 300px 300px, rgba(159,0,191,.9) 0, #4D4FA7 70%);
 }
-@media only screen and (max-width: 800px) {
-.shape:hover,
-.shape:focus {
-  border:1.5px solid #66a5ad;
-  border-radius: 8px;
-  transition:ease-in-out 0.8s;
-  background-position: right center;
-  -webkit-box-shadow: inset 40.5em 0 0 0 white;
-          box-shadow: inset 40.5em 0 0 0 white;
+
+.paper {
+  background: #fff;
+  box-shadow:
+    /* The top layer shadow */
+    0 -1px 1px rgba(0,0,0,0.15),
+    /* The second layer */
+    0 -10px 0 -5px #eee,
+    /* The second layer shadow */
+    0 -10px 1px -4px rgba(0,0,0,0.15),
+     /* The third layer */
+    0 -20px 0 -10px #eee,
+    /* The third layer shadow */
+    0 -20px 1px -9px rgba(0,0,0,0.15);
+    /* Padding for demo purposes */
+    padding: 30px;
+    margin-bottom: 20px;
 }
+
+@media only screen and (max-width: 800px) {
+		.shape:hover,
+		.shape:focus {
+		  border:1.5px solid #66a5ad;
+		  border-radius: 8px;
+		  transition:ease-in-out 0.8s;
+		  background-position: right center;
+		  -webkit-box-shadow: inset 40.5em 0 0 0 white;
+		          box-shadow: inset 40.5em 0 0 0 white;
+	    }
 }
