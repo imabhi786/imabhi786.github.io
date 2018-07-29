@@ -834,8 +834,6 @@ cursor:pointer
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: Montserrat;
-  font-weight: 700;
   line-height: 1.1;
   color: inherit
 }
@@ -871,8 +869,6 @@ h4, .h4 { font-size: 18px }
 h5, .h5 { font-size: 14px }
 
 h6, .h6 { font-size: 12px }
-
-p { margin: 0 0 10px }
 
 .lead {
   margin-bottom: 20px;
@@ -5315,10 +5311,14 @@ th.visible-print, td.visible-print { display: table-cell !important }
 .hidden-print { display: none !important }
 }
 
-body { background-color:#132644 }
+body {
+ background-color:#132644;
+ overflow-x:hidden;
+overflow-y: scroll;
+position: relative; }
 
 header {
-  width: 100%;
+  width: 100;
   height:100vh;
   color: #fff;
 }
@@ -5410,6 +5410,9 @@ section{
   height:auto;
   background: #a3adba;
 }
+p{
+  font-size: 10px;
+}
 .c1{
   padding: 0px;
 }
@@ -5443,4 +5446,16 @@ header h1 { font-size: 6em }
     /* Padding for demo purposes */
     padding: 30px;
     margin-bottom: 20px;
+}
+.quicksand{
+  font-family: 'Abel';
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color:#324851;
+}
+p{
+  font-family: 'Abel';
+  font-size: 20px;
+  color:#324851;
 }
