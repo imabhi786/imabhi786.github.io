@@ -11,7 +11,9 @@
 	color:white;
 	/*text-transform: uppercase;*/
 }
-
+#second{
+	margin-top: 140px;
+}
 blockquote{
 	border-left: 10px solid grey;
 }
@@ -136,5 +138,8 @@ blockquote{
 		  background-position: right center;
 		  -webkit-box-shadow: inset 40.5em 0 0 0 white;
 		          box-shadow: inset 40.5em 0 0 0 white;
+	    }
+	    #second{
+	    	margin-top:10px;
 	    }
 }
