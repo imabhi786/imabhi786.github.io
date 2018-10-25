@@ -10,7 +10,8 @@ html {
   -webkit-text-size-adjust: 100%
 }
 
-body { margin: 0 }
+body { margin: 0;
+background: #616C6F; }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary { display: block }
 
@@ -750,7 +751,7 @@ body {
   font-size: 14px;
   line-height: 1.42857;
   color: #333;
-  background-color: #fff
+  background-color: #616C6F;
 }
 
 input, button, select, textarea {
@@ -5312,7 +5313,6 @@ th.visible-print, td.visible-print { display: table-cell !important }
 }
 
 body {
- background-color:#132644;
  overflow-x:hidden;
 overflow-y: scroll;
 position: relative; }
