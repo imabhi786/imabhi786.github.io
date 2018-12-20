@@ -8,7 +8,7 @@ body {
 
 header.header {
   position: absolute;
-  /*width: 100%;*/
+  width: 100%;
   top:15%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
@@ -26,7 +26,7 @@ header.header h1 {
   position: absolute;
   top: 0;
   left: -2px;
-  /*width: 100%;*/
+  width: 100%;
   color: #222222;
   text-shadow: 2px 0 #F9F8F8, -1px 0 yellow, -2px 0 green;
   overflow: hidden;
@@ -140,7 +140,7 @@ header.header h1 {
       color: #6c7d99;
       text-align: left;
       margin-top: 10px;
-      margin-left:30px;
+      margin-left: 30px;
       text-transform: uppercase;
       font-weight: 800;
     }
