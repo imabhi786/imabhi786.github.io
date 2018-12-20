@@ -1,34 +1,81 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <title>Languages</title>
 <head>
-    <meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<script>
-	</script>
-    <link rel="stylesheet" type="text/css" href="css/custom.css">
-    <link href="https://fonts.googleapis.com/css?family=Abel|Quicksand" rel="stylesheet">
+	
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="js/glitch.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/custom.css">
+  <link rel="stylesheet" type="text/css" href="css/glitch.css">
+  <link href="https://fonts.googleapis.com/css?family=Abel|Quicksand" rel="stylesheet">
 </head>
-<body bgcolor="#333945">
-<center>
-   <h1>Languages Known</h1>
-   <section style="margin-top: 100px">
-   <div class="container-fluid">
-    <div class="paper text-center">
-     <p class="quicksand" style="text-transform: none">
-     <ul>
-     	<li>JavaScript</li>
-     	<li>NodeJs</li>
-     	<li>AngularJs</li>
-     	<li>Php</li>
-     	<li>MySql</li>
-     	<li>C++</li>
-     </ul>
-     </p>
+<body bgcolor="#333945" style="overflow-y: scroll;overflow-x:hidden;display: block;">
+    <div class="one_lang">
+        <header class="header" id="header">
+          <h1 class="glitched quicksand">Languages Known</h1>
+        </header>
     </div>
-   </div>
-   </section>
-</center>
+    <div class="page">
+        <div id ="image_holder" class="image_holder">
+          <div class="card">
+                <img  id ="image" src="css/images/html.png" height="250px" width="250px">
+                <h2>HTML</h2>
+          </div>
+        </div>
+        <div id ="image_holder" class="image_holder">
+          <div class="card">
+                <img  id ="image" src="css/images/css.png" height="250px" width="250px">
+                <h2>CSS</h2>
+          </div>
+        </div>
+        <div id ="image_holder" class="image_holder">
+          <div class="card">
+                <img  id ="image" src="css/images/js.png" height="250px" width="250px">
+                <h2>Js</h2>
+          </div>
+        </div>
+    </div>
+    <div class="page">
+        <div id ="image_holder" class="image_holder">
+          <div class="card">
+                <img  id ="image" src="css/images/angular.png" height="250px" width="250px">
+                <h2>Angular Js</h2>
+          </div>
+        </div>
+        <div id ="image_holder" class="image_holder">
+          <div class="card">
+                <img  id ="image" src="css/images/nodejs.png" height="250px" width="250px">
+                <h2>Node Js</h2>
+          </div>
+        </div>
+        <div id ="image_holder" class="image_holder">
+          <div class="card">
+                <img  id ="image" src="css/images/react.png" height="250px" width="250px">
+                <h2>React Js</h2>
+          </div>
+        </div>
+    </div>
+    <div class="page">
+        <div id ="image_holder" class="image_holder">
+          <div class="card">
+                <img  id ="image" src="css/images/mysql.png" height="250px" width="250px">
+                <h2>MySQL</h2>
+          </div>
+        </div>
+        <div id ="image_holder" class="image_holder">
+          <div class="card">
+                <img  id ="image" src="css/images/c++.png" height="250px" width="250px">
+                <h2>C++</h2>
+          </div>
+        </div>
+        <div id ="image_holder" class="image_holder">
+          <div class="card">
+                <img  id ="image" src="css/images/php.png" height="250px" width="250px">
+                <h2>PHP</h2>
+          </div>
+        </div>
+    </div>
 </body>
 </html>	

@@ -20,7 +20,6 @@ body{
 
 .img{
   height: inherit;
-  filter: grayscale(1);
   transition: all 0.8s ease;
   background-repeat: no-repeat;
   background-size: 100% 100%,contain;
@@ -33,6 +32,7 @@ body{
 }
 .img:hover{
   opacity: 0.8;
+  filter: grayscale(1);
 }
 
 .txt{
@@ -143,6 +143,19 @@ span.s:hover{
 .team-container{width: 50%; }
 }
 */
+.img-responsive1 {
+    display: block;
+    max-width: 100%;
+    height: auto;
+   }
+@media only screen and (min-width:1000px){
+.img-responsive1{
+  max-width:50%;
+  margin-top: 10%;
+  margin-left: 25%;
+  margin-right:25%;
+}
+}
 @media (max-width: 575px) {
   .team-container{
     width: 95%;
@@ -150,5 +163,17 @@ span.s:hover{
    .img{
     filter: grayscale(0);
    }
+  .img-responsive1 {
+    display: block;
+    max-width: 100%;
+    height: auto;
+   }
 }
+@media (max-width: 800px) and (min-width: 750px){
+  .img {
+    
+    margin-top: 50px;
+    
+   }
+ }
 /* End Responsive Media Queries */
