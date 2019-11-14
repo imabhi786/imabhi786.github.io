@@ -24,7 +24,7 @@ body{
   background-repeat: no-repeat;
   background-size: 100% 100%,contain;
   background-image: 
-    url(images/abhijeet.jpg);
+    url('https://user-images.githubusercontent.com/30263342/68885543-60663f80-073b-11ea-82de-2455d6ff2ecb.jpeg');
    /*background: url(images/abhijeet.jpg) top left no-repeat, url(images/abhijeet.jpg) top left repeat-y;*/
    border-radius: 400px;
    -webkit-border-radius: 400px;
